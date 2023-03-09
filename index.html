@@ -607,7 +607,14 @@
                     </a>
                 </div>
 
-                <p class="footer_copy">&#169; Antoine Salleras. All rights reserved</p>
+                <div id="copyright" class="footer_copy" align="center">&copy; 2023 - 2023 www.antoinesalleras.com</div>
+                <script>
+                (function(){
+                    let cpr = document.getElementById("copyright");
+                    cpr.innerHTML = "&copy; 2023 - "+new Date().getFullYear()+" www.antoinesalleras.com - All Rights Reserved.";
+                    cpr.innerHTML += "<br/>Last Updated : "+document.lastModified;
+                })();
+                </script>
             </div>
         </div>
     </footer>
