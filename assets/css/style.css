@@ -380,6 +380,7 @@ img {
 .skills_list {
     row-gap: 1.5rem;
     padding-left: 2.7rem;
+    transition: .2s;
 }
 
 .skills_titles {
@@ -635,8 +636,8 @@ img {
 
 .portfolio_soon {
     background-color: white;
-    width: 592px;
-    height: 337.516px;
+    max-width: 592px;
+    height: 23.8vmax;
     display: flex;
     align-items: center;
     justify-content: center;
