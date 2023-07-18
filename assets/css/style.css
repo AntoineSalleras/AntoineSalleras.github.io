@@ -712,11 +712,6 @@ img {
     padding: .75rem 1rem .25rem;
 }
 
-.contact_content:hover {
-    box-shadow: 0 2px 3px rgba(0,0,0,.15);
-    transition: .3s;
-}
-
 .contact_label {
     font-size: var(--smaller-font-size);
     color: var(--title-color);
