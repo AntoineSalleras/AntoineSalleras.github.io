@@ -206,7 +206,7 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
-/*======== CONTACT FORM BUTTON TEXT CHNAGE ON SUBMIT AND ALERT MESSAGE ========*/
+/*======== CONTACT FORM BUTTON TEXT CHANGE ON SUBMIT AND ALERT MESSAGE ========*/
 /*=============================================================================*/
 const btn = document.getElementById('submit');
 const form = document.getElementById('contact-form');
